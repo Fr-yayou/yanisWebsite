@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #302C2B;
+}
+
+.clickNavBar-container {
+  height: 87px;
+  padding-top: 20px;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.clickName-container {
+  background-color: white;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.clickNavBar-container::after {
+  content: '';
+  display: block;
+  margin-top: 6px;
+  background-color: yellow;
+  height: 5px;
+  width: 25%;
+  border-radius: 4px;
+}
+
+.clickName {
+  background-color: white;
+}
+
+.navBar-container {
+  height: 87px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-bottom: 2px solid grey;
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.name-container {
+  color: white;
+  position: absolute;
+}
+
+.name-container::after {
+  content: '';
+  display: block;
+  margin-top: 6px;
+  background-color: yellow;
+  height: 5px;
+  width: 25%;
+  border-radius: 4px;
+}
+
+.line {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin-bottom: 4px;
+  border-radius: 6px;
+}
+
+.hamburger {
+  cursor: pointer;
+  margin-top: 20px;
+  position: absolute;
+  right: 2px;
+}
+
+.hide {
+  display: none;
+}
+
+.showItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  color: black;
+  position: relative;
+}
+
+.showContainer {
+  width: 100%;
+  background-color: white;
+  position: relative;
+  margin-top: 87px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.hideContainer {
+  display: none;
+}
+/*# sourceMappingURL=app.css.map */
