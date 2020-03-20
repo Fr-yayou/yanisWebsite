@@ -3,52 +3,26 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.nav {
   background-color: #302C2B;
-}
-
-.clickNavBar-container {
-  height: 87px;
-  padding-top: 20px;
-  background-color: white;
+  width: 100%;
   position: fixed;
-  left: 0;
-  right: 0;
-}
-
-.clickName-container {
-  background-color: white;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.clickNavBar-container::after {
-  content: '';
-  display: block;
-  margin-top: 6px;
-  background-color: yellow;
-  height: 5px;
-  width: 25%;
-  border-radius: 4px;
-}
-
-.clickName {
-  background-color: white;
-}
-
-.navBar-container {
-  height: 87px;
-  margin-left: 24px;
-  margin-right: 24px;
   border-bottom: 2px solid grey;
-  padding-top: 20px;
-  position: fixed;
-  left: 0;
-  right: 0;
+  height: 140px;
+}
+
+.menu-desktop {
+  display: none;
 }
 
 .name-container {
-  color: white;
   position: absolute;
+  margin-left: 24px;
+  padding-top: 40px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .name-container::after {
@@ -61,44 +35,132 @@
   border-radius: 4px;
 }
 
-.line {
-  width: 30px;
-  height: 4px;
-  background-color: white;
-  margin-bottom: 4px;
-  border-radius: 6px;
+a {
+  text-decoration: none;
+  color: white;
+  outline: none;
+}
+
+li {
+  list-style: none;
 }
 
 .hamburger {
   cursor: pointer;
-  margin-top: 20px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
   position: absolute;
-  right: 2px;
+  right: 24px;
+  padding-top: 40px;
 }
 
-.hide {
+.btn {
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  margin-top: 25px;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.btn::before {
+  -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+}
+
+.btn::after {
+  -webkit-transform: translateY(12px);
+          transform: translateY(12px);
+}
+
+.close {
   display: none;
 }
 
-.showItem {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.play {
+  display: block;
+  padding-top: 140px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background-color: white;
+  top: 0;
+}
+
+.playTwo {
   color: black;
-  position: relative;
+  margin-left: 24px;
 }
 
-.showContainer {
-  width: 100%;
-  background-color: white;
-  position: relative;
-  margin-top: 87px;
-  margin-left: 0px;
-  margin-right: 0px;
+.nameOpen {
+  color: black;
 }
 
-.hideContainer {
-  display: none;
+.nameClose {
+  color: white;
+}
+
+.cross {
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  margin-top: 25px;
+}
+
+.cross::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.cross::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.cross::before {
+  -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+}
+
+.cross::after {
+  -webkit-transform: translateY(12px);
+          transform: translateY(12px);
 }
 /*# sourceMappingURL=app.css.map */
