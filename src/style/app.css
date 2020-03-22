@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+.form-a {
+  padding-top: 300px;
+}
+
 .nav {
   background-color: #302C2B;
   width: 100%;
@@ -98,15 +102,16 @@ li {
 
 .close {
   display: none;
+  -webkit-transition: top .35s ease-in-out;
+  transition: top .35s ease-in-out;
 }
 
 .play {
   display: block;
   padding-top: 140px;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: top .35s ease-in-out;
+  transition: top .35s ease-in-out;
   background-color: white;
-  top: 0;
 }
 
 .playTwo {
@@ -162,5 +167,104 @@ li {
 .cross::after {
   -webkit-transform: translateY(12px);
           transform: translateY(12px);
+}
+
+.form-container {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+}
+
+.form__name__email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+}
+
+.form__name__email__message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+}
+
+.text-container {
+  text-align: center;
+}
+
+label {
+  padding-bottom: 10px;
+}
+
+input {
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  outline: none;
+}
+
+textarea {
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:hover {
+  border: 2px yellow solid;
+  border-radius: 4px;
+}
+
+textarea:hover {
+  border: 2px yellow solid;
+  border-radius: 4px;
+}
+
+.btnMessage {
+  margin-top: 25px;
+  width: 50%;
+  height: 30px;
+  border: 1px solid yellow;
+  border-radius: 4px;
+  background-color: yellow;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 25px;
 }
 /*# sourceMappingURL=app.css.map */

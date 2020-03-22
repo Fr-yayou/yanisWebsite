@@ -11,7 +11,7 @@ export default class NavBar extends Component {
     render() {
         const { isOpen } = this.state;
         return (
-            <div className="nav">
+            <div className='nav'>
                 <div className="nav-container">
                     <div className="name-container">
                         <h1 className={isOpen ?'nameOpen' :'nameClose'}>Yanis B</h1>

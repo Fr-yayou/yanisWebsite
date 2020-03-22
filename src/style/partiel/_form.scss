@@ -1,0 +1,70 @@
+.form-container{
+    margin-left: 24px;
+    margin-right:24px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+    &__name{
+        display:flex;
+        flex-direction:column;
+        margin-top:25px;
+
+        &__email{
+            display:flex;
+            flex-direction:column;
+            margin-top:25px;
+
+            &__message{
+                display:flex;
+                flex-direction:column;
+                margin-top:25px;
+            }
+        }
+
+    }
+}
+
+.text-container{
+    text-align: center;
+}
+
+label{
+    padding-bottom: 10px;
+}
+input{
+    padding:15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline: none;
+}
+textarea{
+    padding:15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline: none;
+}
+
+input:hover{
+    border:2px yellow solid;
+    border-radius:4px;
+}
+textarea:hover{
+    border:2px yellow solid;
+    border-radius:4px;
+}
+.btnMessage{
+    margin-top: 25px;
+    width: 50%;
+    height: 30px;
+    border: 1px solid yellow;
+    border-radius:4px;
+    background-color: yellow;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
