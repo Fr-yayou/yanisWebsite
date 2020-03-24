@@ -15,7 +15,7 @@ export class From extends Component {
     handleSubmit = (e) => {
         e.preventDefault()
         const{name,email,message} = this.state
-        axios.post('http://localhost:5000/form', {
+        axios.post('http://localhost:8080/email', {
             name,
             email,
             message,
