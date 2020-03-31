@@ -18,7 +18,7 @@
     position:absolute;
     margin-left:24px;
     padding-top: 40px;
-    transition: all .5s ease-in-out;
+    z-index: 15;
 
 }
 .name-container::after{
@@ -41,102 +41,55 @@ li{
 }
 .hamburger{
     cursor:pointer;
-    transition: all .5s ease-in-out;
     position: absolute;
     right: 24px;
-    padding-top: 40px;
+    margin-top: 32px;
+    z-index: 15;
+
 
 }
-.btn{
+.lineOne{
     width: 30px;
     height: 5px;
-    background-color: white;
     border-radius:5px;
-    transition: all .5s ease-in-out;
     margin-top: 25px;
+    margin-bottom: 5px;
 
 }
-.btn::after{
-    content: "";
-    position: absolute;
+.lineTwo{
     width: 30px;
     height: 5px;
-    background-color: white;
     border-radius:5px;
-    transition: all .5s ease-in-out;
+    margin-bottom: 5px;
+}
+.lineThree{
+    width: 30px;
+    height: 5px;
+    border-radius:5px;
+}
 
-}
-.btn::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 5px;
-    background-color: white;
-    border-radius:5px;
-    transition: all .5s ease-in-out;
-}
-.btn::before{
-    transform:translateY(-12px)
-}
-.btn::after{
-    transform:translateY(12px)
-}
+
 
 .close{
     display: none;
-    transition: top .35s ease-in-out;
 
 }
-.play{
-    display: block;
-    padding-top:140px;
-    transition: top .35s ease-in-out;
-    background-color:white;
+.mobileNav{
+    height: 100vh;
+    background-color: white;
+    padding-top: 150px;
 
 }
-.playTwo{
+.mobileNav a{
     color: black;
-    margin-left: 24px;
 }
-.nameOpen{
-    color:black;
-}
-.nameClose{
-    color: white;
+.mobileNav li {
+    margin-left: 25px;
 }
 
+#border-bottom{
+    border-bottom: 2px grey solid;
+    border-radius:4px;
+    margin-right: 25px;
 
-.cross{
-    width: 30px;
-    height: 5px;
-    background-color: black;
-    border-radius:5px;
-    transition: all .5s ease-in-out;
-    margin-top: 25px;
-
-}
-.cross::after{
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 5px;
-    background-color: black;
-    border-radius:5px;
-    transition: all .5s ease-in-out;
-
-}
-.cross::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 5px;
-    background-color: black;
-    border-radius:5px;
-    transition: all .5s ease-in-out;
-}
-.cross::before{
-    transform:translateY(-12px)
-}
-.cross::after{
-    transform:translateY(12px)
 }
