@@ -1,4 +1,5 @@
-import React,{Component} from 'react'
+import React, { Component } from 'react'
+import Photo from '../assets/photoOne.jpg'
 
 export default class Header extends Component{
     render() {
@@ -11,6 +12,9 @@ export default class Header extends Component{
                 </div>
                 <div className='btn-container-header'>
                     <button className='myProject-btn'>My Pojects</button>
+                </div>
+                <div className='container-image'>
+                    <img className='image' src={Photo}/>
                 </div>
             </div>
         )
