@@ -61,16 +61,16 @@ export class From extends Component {
                 <form className='form' onSubmit={this.handleSubmit}>
                     <div className="form__name">
                         <label>Name</label>
-                        <input type='text' name='name' onChange={this.onChange}></input>
+                        <input class='input' type='text' name='name' onChange={this.onChange}></input>
                     </div>
                     <div>{this.state.errors.email}</div>
                     <div className="form__name__email">
                         <label>Email</label>
-                        <input type='text' name="email" onChange={this.onChange}></input>
+                        <input class='input' type='text' name="email" onChange={this.onChange}></input>
                     </div>
                     <div className="form__name__email__message">
                         <label>How cam I help you</label>
-                        <textarea name='message' onChange={this.onChange}></textarea>
+                        <textarea class='input' name='message' onChange={this.onChange}></textarea>
                     </div>
                     <div className="btn-container">
                         <button className="btnMessage" type="submit">Send Message</button>

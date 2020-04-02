@@ -5,16 +5,11 @@
           box-sizing: border-box;
 }
 
-.form-a {
-  padding-top: 300px;
-}
-
 .nav {
-  background-color: #302C2B;
+  background-color: #191a1d;
   width: 100%;
   position: fixed;
-  border-bottom: 2px solid grey;
-  height: 140px;
+  height: 87px;
 }
 
 .menu-desktop {
@@ -24,8 +19,8 @@
 .name-container {
   position: absolute;
   margin-left: 24px;
-  padding-top: 40px;
   z-index: 15;
+  padding-top: 20px;
 }
 
 .name-container::after {
@@ -38,12 +33,6 @@
   border-radius: 4px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  outline: none;
-}
-
 li {
   list-style: none;
 }
@@ -52,15 +41,14 @@ li {
   cursor: pointer;
   position: absolute;
   right: 24px;
-  margin-top: 32px;
   z-index: 15;
+  padding-top: 30px;
 }
 
 .lineOne {
   width: 30px;
   height: 5px;
   border-radius: 5px;
-  margin-top: 25px;
   margin-bottom: 5px;
 }
 
@@ -84,11 +72,15 @@ li {
 .mobileNav {
   height: 100vh;
   background-color: white;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .mobileNav a {
-  color: black;
+  color: #919191;
+  text-decoration: none;
+  outline: none;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 .mobileNav li {
@@ -96,9 +88,15 @@ li {
 }
 
 #border-bottom {
-  border-bottom: 2px grey solid;
+  border-bottom: 2px #f6f6f6 solid;
   border-radius: 4px;
   margin-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+#up-space {
+  padding-top: 15px;
 }
 
 .form-container {
@@ -157,14 +155,7 @@ label {
   padding-bottom: 10px;
 }
 
-input {
-  padding: 15px;
-  border: 1px solid grey;
-  border-radius: 4px;
-  outline: none;
-}
-
-textarea {
+.input {
   padding: 15px;
   border: 1px solid grey;
   border-radius: 4px;
@@ -206,5 +197,52 @@ textarea:hover {
 
 .error {
   color: red;
+}
+
+.header-container {
+  padding-top: 87px;
+  background-color: #191a1d;
+}
+
+.topLine {
+  height: 2px;
+  background-color: #323232;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.container-title {
+  padding-top: 50px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.presentation {
+  margin-top: 25px;
+  color: #ababab;
+  font-size: 1.375rem;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.btn-container-header {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 25px;
+}
+
+.myProject-btn {
+  background-color: yellow;
+  padding: 22px 34px;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 1000px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=app.css.map */

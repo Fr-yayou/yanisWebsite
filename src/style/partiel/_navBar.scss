@@ -1,14 +1,13 @@
 
 
 .nav{
-    background-color:#302C2B;
+    background-color:#191a1d;;
     width: 100%;
     position: fixed;
-    border-bottom: 2px solid grey;
-    height: 140px;
+    height: 87px;
+
 
 }
-
 
 .menu-desktop{
     display: none;
@@ -17,8 +16,8 @@
 .name-container{
     position:absolute;
     margin-left:24px;
-    padding-top: 40px;
     z-index: 15;
+    padding-top: 20px;
 
 }
 .name-container::after{
@@ -31,11 +30,6 @@
     border-radius:4px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    outline: none;
-}
 li{
      list-style: none;
 }
@@ -43,8 +37,8 @@ li{
     cursor:pointer;
     position: absolute;
     right: 24px;
-    margin-top: 32px;
     z-index: 15;
+    padding-top: 30px;
 
 
 }
@@ -52,7 +46,6 @@ li{
     width: 30px;
     height: 5px;
     border-radius:5px;
-    margin-top: 25px;
     margin-bottom: 5px;
 
 }
@@ -77,19 +70,29 @@ li{
 .mobileNav{
     height: 100vh;
     background-color: white;
-    padding-top: 150px;
+    padding-top: 100px;
 
 }
 .mobileNav a{
-    color: black;
+    color: #919191;
+    text-decoration: none;
+    outline: none;
+    font-weight: 300;
+    font-size: 16px;
 }
 .mobileNav li {
     margin-left: 25px;
 }
 
 #border-bottom{
-    border-bottom: 2px grey solid;
+    border-bottom: 2px #f6f6f6 solid;
     border-radius:4px;
     margin-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 
 }
+#up-space{
+    padding-top: 15px;
+}
+
